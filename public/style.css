@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+}
+html {
+  height: 100vh;
+}
+h1 {
+  background: #ff1d19;
+  color: #fff;
+  word-spacing: 1rem;
+  letter-spacing: 0.5rem;
+  font-size: 2.5rem;
+  font-family: "Bree Serif", serif;
+}
+#btnReset,
+#submit {
+  border-radius: 5px;
+  outline: none;
+  border: black;
+  background: #ff1d19;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#btnReset {
+  position: absolute;
+  top: 4rem;
+  left: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+#btnReset:hover {
+  border: #ff1d19;
+  background: black;
+  color: #fff;
+}
+
+#canvas {
+  margin-top: 1rem;
+  box-shadow: 1px 1px 8px black;
+}
+
+h3 {
+  margin-top: 0.5rem;
+}
+h3 #score {
+  padding-right: 1.5rem;
+}
+
+h3 #playerName-holder {
+  font-size: 1rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.score {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+  height: 5rem;
+  background: #fff;
+  border: 1px royalblue solid;
+  border-radius: 5px;
+}
+.score h2 {
+  padding: 0.5rem 0;
+}
+.score #submit {
+  padding: 0.2rem;
+}
+.score input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px #ff1d19 solid;
+}

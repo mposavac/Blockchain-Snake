@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <h1>THE SNAKE!</h1>
+    <h3>
+      Score: <span id="score"></span> Highscore: <span id="highScore"></span>
+      <span id="playerName-holder"></span>
+    </h3>
+    <button id="btnReset">Reset Game</button>
+    <canvas id="canvas" width="600" height="600"> </canvas>
+    <div class="score">
+      <h2 id="scoreEnter"></h2>
+      <input
+        type="text"
+        name="playerName"
+        id="playerName"
+        placeholder="Enter your name..."
+      />
+      <button id="submit" type="submit">Submit</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
